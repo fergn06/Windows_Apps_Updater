@@ -1,0 +1,16 @@
+REM Created by Fernando Guerrero https://www.linkedin.com/in/fernando-guerrero-nuez-07b60b248
+GUI s
+DELAY 500
+STRING cmd
+DELAY 1000
+RIGHTARROW
+DOWNARROW
+ENTER
+DELAY 1500
+LEFTARROW
+ENTER
+DELAY 2000
+STRING winget upgrade --all --accept-package-agreements --accept-source-agreements --disable-interactivity
+ENTER
+STRING exit
+ENTER
